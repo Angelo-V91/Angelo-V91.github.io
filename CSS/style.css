@@ -13,7 +13,7 @@ body
 	color: #0065FC;
 
 }
-.title1
+.recherche
 {
 	display: flex;
 	flex-direction: column;
@@ -85,4 +85,34 @@ header
 .navActivité
 {
 	color: black;
+}
+.list
+{
+	display: flex;
+	justify-content: flex-start;
+    list-style-type: none;
+}
+
+}
+.list :hover
+{
+
+}
+.Filtre
+{
+	display: flex;
+	list-style-type: none;
+    font-size: 1.4em;
+    color: black;
+}
+.Pet,.Rom,.Fami,.Eco
+{
+	margin-right: 20px;
+    margin-left: 20px;
+    padding-left:35px ;
+    padding-right:15px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px grey solid;
+    border-radius: 30px;
 }
