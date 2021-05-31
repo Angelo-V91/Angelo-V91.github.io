@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="CSS/style.css" />
         <title>Réservia</title>
+        <script src="https://kit.fontawesome.com/e6a3d77b80.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div id="bloc_page">
@@ -13,28 +14,67 @@
                  <!-- Navigations -->
                 <nav>
                     <ul class="navigation">
-            		   <li> <a class="navHébergement" href="#">Hébergement</a> </li>
-            		   <li><a class="navActivité" href="#"> Activité</a> </li>
-            		   <li><a class="navInscription" href="#"> <strong> S'inscrire </strong> </a> </li>
+            		   <li> <a class="navHébergement" href="#Accomodation"/a> </li>
+            		   <li><a class="navActivité" href="#activiter"> Activité</a> </li>
+            		   <li><a class="navInscription" href="#Inscription"> <strong> S'inscrire </strong> </a> </li>
                     </ul>
                 </nav>
             </header>
-            <!-- Recherche -->
-        <div class="recherche">
-            <h1 class="titlehéb">Trouver votre hébergement pour des vacances de rêve</h1>
-         	<h5 class="titlesous">En plein centre ville ou en pleine nature</h5>
-            <h4>Marseille,France</h4>
-        </div>
-        </div>
 
-        <div>
-             <ul class="list">
-                <li class="Filtre">Filtres</li>
-                <li class="Eco">Économique</a></li>
-                <li class="Fami">Familial</a></li>
-                <li class="Rom">Romantique</a> </li>
-                <li class="Pet">Animaux autorisés</a> </li>
-             </ul>
-        </div>
+            <!-- Research  -->
+                <div class="Research"> 
+                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                 <p class="margeResearch">En plein centre ville ou en pleine nature</p> 
+
+                   <i class="fas fa-map-marker-alt"></i>
+                   <input class="research" type="text" name="Marseille" placeholder="Marseille, France" />
+                   <input class="submit" type="submit" value="Rechercher" />
+                </div>
+                </div>
+                <div>
+                     <ul class="list">
+                        <li class="Filtre"><strong>Filtres</strong></li>
+                        <li class="itemList"><a class="linkItem" href="#"> <i class="fas fa-money-bill-wave"> </i>  Économique</a></li>
+                        <li class="itemList"><a class="linkItem" href="#"> <i class="fas fa-child"> </i> Familial</a></li>
+                        <li class="itemList"><a class="linkItem" href="#"> <i class="fas fa-heart"> </i>Romantique</a> </li>
+                        <li class="itemList"><a class="linkItem" href="#"> <i class="fas fa-dog"> </i> Animaux autorisés</a> </li>
+                     </ul>
+                </div>
+
+                <!-- Informations -->
+
+                <p class="infoAccommodation"><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+
+                <!--Accomodation in Marseille-->
+                <section class="container">
+                    <div class="AccomodationContainer">
+                        <h2 id="Accomodation">Hébergement à Marseille</h2>
+                        <div class="accomodationcard">
+                            <article class="accomodationcardcontent">
+                                <a href="#">
+                                    <figure class="margeAccomodation">
+                                        <img class="accomodationcardImg" src="src/hebergements/Marcus-loke.jpg" />
+                                        <figcaption class="accomdationcardInformation">
+                                            <h3>Auberge la Cannebière</h3>
+                                            <p>Nuit a partir de <span class="price">25€ </span></p>
+                                            <div class="starAccomodation">
+                                                <div class="fullStarAccomodation">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i> 
+                                                </div>
+                                                <div class="emptyStarAccomodation">
+
+                                                   <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </article>
+
+
+
     </body>
 </html>

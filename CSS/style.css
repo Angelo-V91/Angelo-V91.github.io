@@ -13,36 +13,13 @@ body
 	color: #0065FC;
 
 }
-.recherche
-{
-	display: flex;
-	flex-direction: column;
-	margin: 0px;
-}
+		/* Entete */
 
 .element1
 {
 	padding-left: 25px;
 	padding-bottom: 10px;
 }
-
-.titlehéb
-{
-	color: black;
-	font-size: 1.4em;
-	padding-top: 20px;
-	padding-left: 20px;
-}	
-
-.titlesous
-{
-	margin: 0px;
-	color: grey;
-	font-size: 0.9em;
-	padding-left: 25px;
-}
-
-
 header
 {
 	display: flex;
@@ -86,33 +63,177 @@ header
 {
 	color: black;
 }
+
+		/*Corps*/
+
+
+   /*Recherche*/
+
+.margeResearch
+{
+    margin-bottom: 1%;
+    color: grey;
+
+}
+.research
+{
+    font-size:17px ;
+    padding: 13px;
+    font-weight: bolder;
+    border: #F2F2F2 solid 1px;
+    border-right: none;
+    border-left: none; 
+    margin-left: -1%;; 
+    
+}
+
+
+.submit
+{
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 17px;
+    padding: 14px;
+    padding-right: 25px;
+    background-color: #0065fc;
+    border:#F2F2F2; 
+    margin-left:-1%;
+}
+.recherche
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+
+
 .list
 {
 	display: flex;
 	justify-content: flex-start;
-    list-style-type: none;
 }
-
-}
+  
 .list :hover
 {
-
+background-color:#DEEBFF;
 }
+
 .Filtre
 {
 	display: flex;
 	list-style-type: none;
-    font-size: 1.4em;
+    font-size: 1.1em;
     color: black;
-}
-.Pet,.Rom,.Fami,.Eco
-{
-	margin-right: 20px;
-    margin-left: 20px;
-    padding-left:35px ;
-    padding-right:15px ;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border: 3px grey solid;
-    border-radius: 30px;
+    margin-right: 10px;
+}
+.itemList
+{
+	 display: flex;
+	 list-style-type: none;
+	 padding-right: 20px;
+	 border: 3px solid #F2F2F2;
+	 border-radius:35px;
+	 border-left: none;
+	 margin-left: 42px;
+}
+
+.fa-info
+{
+    color: #0065fc;
+    font-size: 13px;
+    padding-bottom:7px;
+    padding-top:7px; 
+    padding-right:10px;
+    padding-left: 10px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 100%;
+}
+.infoAccommodation
+{
+	color: black;
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+ font-size: 18px;
+ color: #0065fc;
+ border-radius: 100%;
+ padding: 13px;
+ background-color:#d1deee;  
+ margin-right: 10px;
+}
+
+/* Accomodation */
+
+.container 
+{
+ display:flex;
+ justify-content: space-between;
+ 
+}
+
+.container  h3 
+{
+ margin: 1%;
+}
+
+.container p
+{
+ margin: 1%;
+}
+
+.accommodationContainer
+{
+    width: 65%;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    
+}
+
+#accommodation
+{
+    margin-left: 30px;
+    font-size: 22px
+}
+
+
+.accommodationcard
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.margeAccommodation
+{
+    margin: 2%;
+}
+
+.accommodationcardcontent
+{
+    margin-bottom: 2%;
+    background-color: white;
+    border-radius: 20px;
+    width: 28%;
+    box-shadow:7px 2px 11px 3px rgba(218,218,218,0.61);
+}
+
+.accommodationcardcontent:hover
+{
+    box-shadow:5px 5px 7px 0px #989898; 
+}
+
+.accommodationcardImg
+{
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+.accommodationcardInformation p, h3
+{
+    padding-bottom: 2%;
+    padding-left: 2%;    
 }
